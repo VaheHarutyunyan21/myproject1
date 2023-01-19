@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.logo{
+    font-size: 30px;
+    margin-right: 25px;
+
+}
+.nav__block{
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav{
+    font-size:20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.search{
+    width: 20%; 
+    border-radius: 10%;
+}
